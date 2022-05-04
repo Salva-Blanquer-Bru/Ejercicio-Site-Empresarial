@@ -1,0 +1,64 @@
+footer .footer {
+  background-color: #c0212c;
+  width: 100%;
+  display: flex;
+  align-items: top; }
+  footer .footer section {
+    padding: 1rem 2rem;
+    width: 100%;
+    vertical-align: top; }
+    footer .footer section h3 {
+      font-weight: bold;
+      color: white; }
+    footer .footer section a {
+      color: white;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      margin: 15px 0;
+      text-decoration: none;
+      transition: 0.5s; }
+    footer .footer section a:hover {
+      color: black; }
+    footer .footer section p {
+      letter-spacing: 0.08em;
+      line-height: 1.8em;
+      color: white; }
+    footer .footer section form .subscribe-input {
+      width: auto;
+      flex: 1;
+      border: 0.06em solid white;
+      font-size: 1em;
+      font-weight: 500;
+      padding: 0.5em;
+      border-radius: 0.3em;
+      transition: all 0.25s ease 0s;
+      display: inline-block;
+      color: #9da2ae; }
+    footer .footer section form .subscribe-input:focus {
+      outline: none;
+      border-color: #5e5e5e;
+      color: #5e5e5e; }
+    footer .footer section form .subscribe-btn {
+      background: black;
+      border: none;
+      font-size: 1em;
+      font-weight: 600;
+      padding: 0.5em;
+      border-radius: 0.3em;
+      transition: all 0.25s ease 0s;
+      display: inline-block;
+      color: white;
+      cursor: pointer; }
+    footer .footer section form .subscribe-btn:hover,
+    footer .footer section form .subscribe-btn:focus {
+      background: #d5d9f6; }
+footer .sub-footer {
+  background-color: #c0212c;
+  text-align: end;
+  color: #151414;
+  padding: 1rem 0; }
+  footer .sub-footer i {
+    margin-right: 3em; }
+
+
